@@ -33,7 +33,8 @@ The example contains four exams and three symbolic time slots (`T1`, `T2`, and `
 For every pair of conflicting exams, the constraint is:
 
 ```python
-constraint(slot_a, slot_b) = slot_a != slot_b
+def constraint(slot_a, slot_b):
+    return slot_a != slot_b
 ```
 
 Exams without a conflict may share a time slot.
