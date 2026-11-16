@@ -1,4 +1,4 @@
-# CSP Exam Scheduling — Backtracking & AC-3
+# CSP Exam Scheduling with Backtracking & AC-3
 
 A Python implementation of **exam timetabling as a Constraint Satisfaction Problem (CSP)**. This project demonstrates how recursive backtracking finds a conflict-free exam schedule and how **AC-3 (Arc Consistency Algorithm #3)** can prune invalid time-slot choices before the search begins.
 
